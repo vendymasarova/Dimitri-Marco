@@ -244,13 +244,51 @@ nav {
 
 @media (max-width: 768px) {
   .hero img {
-    height: 400px;
+    height: 700px;
   }
   .details h1 {
     font-size: 38px;
   }
   .details h2 {
     font-size: 28px;
+  }
+}
+@media (max-width: 500px) {
+  .hero img {
+    height: 400px;
+  }
+  .details h1 {
+    font-size: 26px;
+  }
+  .details h2,
+  .details p {
+    font-size: 18px;
+  }
+
+  .social h3,
+  .contact h3 {
+    font-size: 18px !important;
+  }
+
+  .social-links img {
+    padding: 0 !important;
+  }
+
+  .author h1 {
+    font-size: 36px;
+  }
+
+  .story-description h3,
+  .author h3 {
+    font-size: 24px;
+  }
+
+  .story-description p {
+    font-size: 18px;
+  }
+
+  .profile img {
+    width: 90%;
   }
 }
 
